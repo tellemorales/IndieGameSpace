@@ -5,6 +5,7 @@ import GlobalStyle from './globalStyles';
 import {Games, Developers, DevsSignIn, DevsSignUp} from './pages/Index';
 import { Navbar, Home, Sidebar, ScrollToTop, GameProfile, EditProfile, DevProfile, PublishForm }  from './components/Index';
 
+
 function App() {
   //sidebar function
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +44,6 @@ function App() {
           <DevsSignIn {...props} setUser={setUser} setLog={setLog} user={user} logStatus={log} />
         ))}
          />
-
         <Route path='/signup' component={DevsSignUp} />
         <Route path='/games' component={Games} />
         <Route path='/gameProfile' component={GameProfile} />

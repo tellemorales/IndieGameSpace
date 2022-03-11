@@ -59,6 +59,10 @@ const Navbar = (props) => {
                     <NavItem>
                         <NavLinks to='/games' > Games </NavLinks>
                     </NavItem>
+
+                    <NavItem>
+                        <NavLinks to='/dashboard' > Temp </NavLinks>
+                    </NavItem>
     
                 </NavMenu>
 
